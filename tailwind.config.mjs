@@ -6,7 +6,9 @@ export default {
 	darkMode: 'class',
 	theme: {
 		extend: {
-			
+			backgroundImage: {
+				'gym': "url('public/gym-back.webp')",
+			}
 		},
 		colors:{
 			'casiNegro': '#10002B',
