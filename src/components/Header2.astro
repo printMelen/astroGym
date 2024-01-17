@@ -2,10 +2,10 @@
 import {StickyHeader, Astronav, MenuItems, MenuIcon,  Dropdown, DropdownItems } from "astro-navbar";
 ---
 <StickyHeader
-class="sticky top-0 z-20 transition-all"
+class="sticky top-0 z-20 transition-all text-white"
 scrollY={50}
 defaultClass="py-5 border-transparent"
-activeClass="py-2 backdrop-blur-lg">
+activeClass="py-2 backdrop-blur-xl text-[#000814]">
 <header class="lg:flex p-5 px-16  gap-5">
   <Astronav>
     <div class="flex items-center w-full justify-between">
@@ -13,10 +13,10 @@ activeClass="py-2 backdrop-blur-lg">
         <img src="../../logo.svg" class="w-[30px]" alt="">
         <!-- <span class="flex items-center text-2xl font-semibold text-white whitespace-nowrap bg-gradient-to-r from-violet-700 to-white text-transparent
         bg-clip-text">Astro</span> -->
-        <span class="flex items-center text-2xl font-semibold whitespace-nowrap text-white">AstroGym</span>
+        <span class="flex items-center text-2xl font-semibold whitespace-nowrap">AstroGym</span>
       </a>
       <div class="flex lg:hidden">
-        <MenuIcon class="flex justify-center w-6 h-6 text-white" />
+        <MenuIcon class="flex justify-center w-6 h-6 " />
       </div>
     </div>
     <MenuItems class="hidden lg:flex">
