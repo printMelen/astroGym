@@ -9,6 +9,7 @@ export default {
 			backgroundImage: {
 				'gym': "url('/gym-back.webp')",
 				'gymCover': "url('public/gym-back.webp')",
+				'silver': "url('/silver.jpg')",
 			}
 		},
 		colors:{
