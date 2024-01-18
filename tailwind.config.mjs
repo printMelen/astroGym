@@ -7,9 +7,10 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'gym': "url('/gym-back.webp')",
-				'gymCover': "url('public/gym-back.webp')",
-				'silver': "url('/silver.jpg')",
+
+				'gym': "url('/gym.webp')",
+				'gymCover': "url('/gymCover.svg')",
+
 			}
 		},
 		colors:{
